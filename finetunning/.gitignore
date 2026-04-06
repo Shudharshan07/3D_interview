@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.venv/
+*.py[cod]
+*$py.class
+.python-version
+
+# Databases (Specific to SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django-specific
+*.log
+local_settings.py
+db.sqlite3
+/static/
+media/
+staticfiles/
+
+# Editor/IDE specific (e.g., VS Code or PyCharm)
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+
+dist/
+build/
+*.egg-info/
+*.safetensors
+*.arrow

@@ -1,0 +1,12 @@
+django
+djangorestframework
+mysqlclient
+celery
+redis
+kombu
+django-cors-headers
+django-environ
+groq
+requests
+reportlab
+pypdf

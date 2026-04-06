@@ -1,0 +1,24 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: interview_mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=2007
+      - MYSQL_DATABASE=interview
+
+  cache:
+    image: redis:alpine
+    container_name: interview_redis
+    ports:
+      - "6379:6379"
+    restart: always
+
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
